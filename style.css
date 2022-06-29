@@ -818,11 +818,11 @@ h4 {
 }
 
 .bg-banniere {
-    background-image: url("img/img_illus_presentation_1.jpg");
+    background-image: url("img/img_illus_presentation_1.webp");
 }
 
 .bg-presentation {
-    background-image: url("img/img_illus_presentation_2.jpg");
+    background-image: url("img/img_illus_presentation_2.webp");
 }
 
 @media (max-width: 1024px) {
