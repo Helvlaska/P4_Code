@@ -7,6 +7,14 @@ body {
     -moz-osx-font-smoothing: grayscale;
 }
 
+#page-container {
+    max-width: 1400px;
+}
+
+.logo {
+    margin: 10px 0px 0px 30px;
+}
+
 a,
 button {
     transition: all .3s ease-in-out;
@@ -16,15 +24,6 @@ button {
 a:hover {
     text-decoration: none;
     cursor: pointer;
-}
-
-#page-loading-blocs-notifaction {
-    position: fixed;
-    top: 0;
-    bottom: 0;
-    width: 100%;
-    z-index: 100000;
-    background: #FFFFFF url("img/pageload-spinner.gif") no-repeat center center;
 }
 
 .bloc {
@@ -121,7 +120,7 @@ a:hover {
 
 .d-bloc .a-btn,
 .d-bloc .navbar a,
-.d-bloc .navbar-brand,
+.d-bloc,
 .d-bloc a .icon-sm,
 .d-bloc a .icon-md,
 .d-bloc a .icon-lg,
@@ -138,7 +137,7 @@ a:hover {
 
 .d-bloc .a-btn:hover,
 .d-bloc .navbar a:hover,
-.d-bloc .navbar-brand:hover,
+.d-bloc,
 .d-bloc a:hover .icon-sm,
 .d-bloc a:hover .icon-md,
 .d-bloc a:hover .icon-lg,
@@ -219,7 +218,7 @@ a:hover {
 .d-bloc .panel .a-btn,
 .l-bloc .a-btn,
 .l-bloc .navbar a,
-.l-bloc .navbar-brand,
+.l-bloc,
 .l-bloc a .icon-sm,
 .l-bloc a .icon-md,
 .l-bloc a .icon-lg,
@@ -237,7 +236,7 @@ a:hover {
 .d-bloc .panel .a-btn:hover,
 .l-bloc .a-btn:hover,
 .l-bloc .navbar a:hover,
-.l-bloc .navbar-brand:hover,
+.l-bloc,
 .l-bloc a:hover .icon-sm,
 .l-bloc a:hover .icon-md,
 .l-bloc a:hover .icon-lg,
@@ -867,7 +866,7 @@ h4 {
     .b-parallax {
         background-attachment: scroll;
     }
-    .page-container,
+    #page-container,
     #hero-bloc {
         overflow-x: hidden;
         position: relative;
@@ -890,7 +889,7 @@ h4 {
 }
 
 @media (max-width: 767px) {
-    .page-container {
+    #page-container {
         overflow-x: hidden;
         position: relative;
     }
