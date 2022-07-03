@@ -14,7 +14,9 @@ body {
 .logo {
     margin: 10px 0px 0px 30px;
 }
-
+.citation {
+    width: 100%;
+}
 a,
 button {
     transition: all .3s ease-in-out;
@@ -685,7 +687,7 @@ a {
 }
 
 p {
-    font-size: 11px;
+    font-size: 16px;
 }
 
 .tight-width-whitespace {
