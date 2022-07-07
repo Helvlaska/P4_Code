@@ -11,8 +11,11 @@ body {
     max-width: 1400px;
 }
 
+header {
+    margin: 0px 20px;
+}
 .logo {
-    margin: 10px 0px 0px 30px;
+    margin: 10px 0px 0px 10px;
 }
 .citation {
     width: 100%;
@@ -101,7 +104,7 @@ a:hover {
 }
 
 .texture-paper::before {
-    background: url("img/texture-paper.png");
+    background: url("img/texture_paper.png");
     background-size: 280px 280px;
 }
 
@@ -781,15 +784,15 @@ h4 {
 }
 
 .bgc-atomic-tangerine {
-    background-color: #F3976C;
+    background-color: #8A300A;
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color: #FFFFFF!important;
 }
 
 .btn-atomic-tangerine {
-    background: #F3976C;
+    background: #8A300A;
     color: #FFFFFF!important;
 }
 
@@ -807,7 +810,7 @@ h4 {
 }
 
 .ltc-atomic-tangerine {
-    color: #F3976C!important;
+    color: #FFFFFF!important;
 }
 
 .ltc-atomic-tangerine:hover {
