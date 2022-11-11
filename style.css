@@ -12,7 +12,10 @@ body {
 }
 
 header {
-    margin: 0px 20px;
+    width: 100%;
+}
+.navbar-header {
+    margin-bottom: 15px;
 }
 .logo {
     margin: 10px 0px 0px 10px;
@@ -396,6 +399,7 @@ a:hover {
     }
     .nav-center .navbar-header {
         width: 100%;
+    
     }
     .nav-center .navbar-header,
     .nav-center .navbar-brand,
